@@ -1,8 +1,22 @@
 import type { NextPage } from "next";
-import styles from "../styles/Home.module.css";
+
+// Components
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Descriptions from "../sections/Descriptions";
+import Heading from "../sections/Heading";
+import Roadmap from "../sections/Roadmap";
 
 const Home: NextPage = () => {
-  return <div className={styles.container}></div>;
+  return (
+    <div>
+      <Header />
+      <Heading />
+      <Descriptions />
+      <Roadmap />
+      <Footer />
+    </div>
+  );
 };
 
 export default Home;
