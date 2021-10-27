@@ -1,7 +1,9 @@
 import { FC } from "react";
 import descriptions from "../utils/description";
-
 import Description from "../components/Description/Description";
+
+// Style
+import { Container } from "../styles/description";
 
 export type DescriptionType = {
   id: number;
@@ -11,11 +13,11 @@ export type DescriptionType = {
 
 const Descriptions: FC = () => {
   return (
-    <div>
+    <Container>
       {descriptions.map((description) => {
         return <Description key={description.id} description={description} />;
       })}
-    </div>
+    </Container>
   );
 };
 
