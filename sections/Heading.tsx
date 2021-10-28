@@ -1,13 +1,26 @@
 import { FC } from "react";
 import configs from "../utils/configs";
-import { Container } from "../styles/heading";
+
+//Styles
+import {
+  Container,
+  Content,
+  Title,
+  Headline,
+  Description,
+} from "../styles/heading";
+import { Button } from "../styles/globals";
 
 const Heading: FC = () => {
   return (
     <Container>
-      <h1>{configs.app_name}</h1>
-      <h1>{configs.app_header}</h1>
-      <p>{configs.description}</p>
+      <Content>
+        <Title>{configs.app_name}</Title>
+        <Headline>{configs.app_header}</Headline>
+        <Description>{configs.description}</Description>
+        <Button>Start Now</Button>
+        <Button>Read more</Button>
+      </Content>
     </Container>
   );
 };
