@@ -1,14 +1,14 @@
-import { FC } from "react";
-import Link from "next/link";
-import { NavigationBar, Links } from "../styles/globals";
-import config from "../utils/configs";
+import { FC } from 'react';
+import Link from 'next/link';
+import { NavigationBar, Links } from '../styles/globals';
+import config from '../utils/configs';
 
 const Header: FC = () => {
   return (
     <NavigationBar>
       <ul>
         <Links>
-          <Link href="#">
+          <Link href='#'>
             <a>{config.app_name}</a>
           </Link>
         </Links>

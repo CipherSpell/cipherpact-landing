@@ -1,7 +1,7 @@
-import { FC } from "react";
-import roadmap from "../utils/roadmap";
-import Road from "../components/Roadmap/Road";
-import { Container } from "../styles/roadmap";
+import { FC } from 'react';
+import roadmap from '../utils/roadmap';
+import Road from '../components/Roadmap/Road';
+import { Container } from '../styles/roadmap';
 
 export type RoadmapType = {
   id: number;

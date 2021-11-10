@@ -1,9 +1,9 @@
-import { FC } from "react";
-import descriptions from "../utils/description";
-import Description from "../components/Description/Description";
+import { FC } from 'react';
+import descriptions from '../utils/description';
+import Description from '../components/Description/Description';
 
 // Style
-import { Container } from "../styles/description";
+import { Container } from '../styles/description';
 
 export type DescriptionType = {
   id: number;

@@ -1,5 +1,5 @@
-import { FC } from "react";
-import { RoadmapType } from "../../sections/Roadmap";
+import { FC } from 'react';
+import { RoadmapType } from '../../sections/Roadmap';
 
 type RoadProps = {
   roads: RoadmapType;

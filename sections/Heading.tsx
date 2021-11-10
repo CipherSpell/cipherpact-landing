@@ -1,5 +1,5 @@
-import { FC } from "react";
-import configs from "../utils/configs";
+import { FC } from 'react';
+import configs from '../utils/configs';
 
 //Styles
 import {
@@ -8,8 +8,8 @@ import {
   Title,
   Headline,
   Description,
-} from "../styles/heading";
-import { Button } from "../styles/globals";
+} from '../styles/heading';
+import { Button } from '../styles/globals';
 
 const Heading: FC = () => {
   return (

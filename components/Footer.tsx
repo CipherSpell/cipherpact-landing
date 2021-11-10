@@ -1,5 +1,5 @@
-import React from "react";
-import { SiGithub } from "react-icons/si";
+import React from 'react';
+import { SiGithub } from 'react-icons/si';
 
 const Footer = () => {
   return (

@@ -1,5 +1,5 @@
-import { FC } from "react";
-import { DescriptionType } from "../../sections/Descriptions";
+import { FC } from 'react';
+import { DescriptionType } from '../../sections/Descriptions';
 
 type DescriptionProps = {
   description: DescriptionType;
